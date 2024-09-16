@@ -24,6 +24,16 @@ body {
   margin-top: 10vh;
    margin-bottom: 10vh;
 }
+a {
+  text-decoration: none;
+  color: #E2E8F0;
+
+  &:hover{
+    color: crimson;
+    transition: 0.6s;
+
+  }
+}
 
 .card img {
   border-radius: 30%;
